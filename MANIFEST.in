@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include maps *.css
+recursive-include maps *.csv
+recursive-include maps *.html
+recursive-include maps *.ico
+recursive-include maps *.js
+recursive-include maps *.json
+recursive-include maps *.md
+recursive-include maps *.png
+recursive-include maps *.py
+recursive-include maps *.svg
+recursive-include maps *.txt
+recursive-exclude maps *.pyc
