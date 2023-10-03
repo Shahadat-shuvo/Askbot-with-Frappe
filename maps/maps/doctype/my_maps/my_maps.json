@@ -1,0 +1,63 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-24 15:21:22.066124",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "city",
+  "country",
+  "address",
+  "street"
+ ],
+ "fields": [
+  {
+   "fieldname": "city",
+   "fieldtype": "Data",
+   "label": "City"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Select",
+   "label": "Country",
+   "options": "Bangladesh\nIndia"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "HTML",
+   "label": "Address",
+   "options": "<form action=\"#\" method=\"get\">\n        <input id=\"search\" list=\"suggestions\" name=\"search\" type=\"text\">\n        <datalist id=\"suggestions\">\n            <option value=\"Search suggestion 1\">\n            </option><option value=\"Search suggestion 2\">\n            </option><option value=\"Search suggestion 3\">\n            </option><option value=\"Search suggestion 4\">\n            </option><option value=\"Search suggestion 5\">\n        </option></datalist>\n        <input type=\"submit\" value=\"Search\">\n    </form>"
+  },
+  {
+   "fieldname": "street",
+   "fieldtype": "Autocomplete",
+   "label": "street"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-09-28 02:12:25.434695",
+ "modified_by": "Administrator",
+ "module": "Maps",
+ "name": "My Maps",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
