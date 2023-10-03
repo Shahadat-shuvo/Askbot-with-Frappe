@@ -12,10 +12,10 @@ class MyMaps(Document):
 
 # Define the API endpoint URL
 api_url = "https://maps.googleapis.com/maps/api/place/autocomplete/json"
-url = "https://maps.googleapis.com/maps/api/js?key=AIzaSyC5PA2A3Qfd-eM9NdExByNpCKaLr3yN5wM&libraries=places"
+url = "https://maps.googleapis.com/maps/api/js?key=YourKey&libraries=places"
 
 # Define your API key (replace with your actual API key)
-api_key = "AIzaSyC5PA2A3Qfd-eM9NdExByNpCKaLr3yN5wM"
+api_key = Your Key
 
 # Define the parameters for your request
 
